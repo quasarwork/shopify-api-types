@@ -46,7 +46,7 @@ import {
   Mutation,
   Product,
 } from "@quasarwork/shopify-api-types/admin/api/2023-01";
-import { RequestReturn } from "@quasarwork/shopify-api-types";
+import { RequestReturn } from "@quasarwork/shopify-api-types/utils/shopify-api";
 
 // ...
 
