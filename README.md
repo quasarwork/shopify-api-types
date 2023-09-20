@@ -22,15 +22,15 @@ You can import whatever Shopify resource (object), query or mutation that is ava
 For example if you want the `Product` object from the Shopify Admin API:
 
 ```typescript
-import { Product } from "@quasarwork/shopify-api-types/admin/2023-01";
+import type { Product } from "@quasarwork/shopify-api-types/admin/2023-07";
 ```
 
 You can specify any version that is being currently [supported by Shopify](https://shopify.dev/docs/api).
 
-The package also supports aliases for `latest` and `release_candidate`:
+The package also supports aliases for `latest`, `release_candidate` and `unstable`:
 
 ```typescript
-import { Product } from "@quasarwork/shopify-api-types/admin/latest";
+import type { Product } from "@quasarwork/shopify-api-types/admin/latest";
 ```
 
 ### [`@shopify/shopify-api`](https://github.com/Shopify/shopify-api-js) utils
@@ -42,11 +42,11 @@ Let's say you want to do a `productCreate` GraphQL mutation on the Shopify Admin
 ```typescript
 // ...
 
-import {
+import type {
   Mutation,
   Product,
-} from "@quasarwork/shopify-api-types/admin/api/2023-01";
-import { RequestReturn } from "@quasarwork/shopify-api-types/utils/shopify-api";
+} from "@quasarwork/shopify-api-types/api/admin/2023-07";
+import type { RequestReturn } from "@quasarwork/shopify-api-types/utils/shopify-api";
 
 // ...
 
