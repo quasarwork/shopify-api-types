@@ -22,7 +22,7 @@ You can import whatever Shopify resource (object), query or mutation that is ava
 For example if you want the `Product` object from the Shopify Admin API:
 
 ```typescript
-import type { Product } from "@quasarwork/shopify-api-types/admin/2023-07";
+import type { Product } from "@quasarwork/shopify-api-types/api/admin/2023-07";
 ```
 
 You can specify any version that is being currently [supported by Shopify](https://shopify.dev/docs/api).
@@ -30,7 +30,7 @@ You can specify any version that is being currently [supported by Shopify](https
 The package also supports aliases for `latest`, `release_candidate` and `unstable`:
 
 ```typescript
-import type { Product } from "@quasarwork/shopify-api-types/admin/latest";
+import type { Product } from "@quasarwork/shopify-api-types/api/admin/latest";
 ```
 
 ### [`@shopify/shopify-api`](https://github.com/Shopify/shopify-api-js) utils
