@@ -4912,6 +4912,8 @@ var MetafieldDefinitionUpdateUserErrorCode;
     MetafieldDefinitionUpdateUserErrorCode["InvalidInput"] = "INVALID_INPUT";
     /** Action cannot proceed. Definition is currently in use. */
     MetafieldDefinitionUpdateUserErrorCode["MetafieldDefinitionInUse"] = "METAFIELD_DEFINITION_IN_USE";
+    /** You cannot change the metaobject definition pointed to by a metaobject reference metafield definition. */
+    MetafieldDefinitionUpdateUserErrorCode["MetaobjectDefinitionChanged"] = "METAOBJECT_DEFINITION_CHANGED";
     /** The metafield definition wasn't found. */
     MetafieldDefinitionUpdateUserErrorCode["NotFound"] = "NOT_FOUND";
     /** You have reached the maximum allowed definitions for automated collections. */

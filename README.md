@@ -4,7 +4,15 @@
 
 The types definitions of this package are generated using [`@quasarwork/shopify-api-types-codegen`](https://github.com/quasarwork/shopify-api-types-codegen).
 
-⚠️ Currently only Shopify Admin API is implemented.
+## Supported APIs
+
+| Name                                                            | Supported | Import example                                                                                         |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------ |
+| [Admin API](https://shopify.dev/docs/api/admin)                 | ✅        | `import type { Product } from "@quasarwork/shopify-api-types/api/admin/2023-07";`                      |
+| [Partner API](https://shopify.dev/docs/api/partner)             | ❌        |                                                                                                        |
+| [Payments Apps API](https://shopify.dev/docs/api/payments-apps) | ✅        | `import type { PaymentSessionResolve } from "@quasarwork/shopify-api-types/api/payment_apps/2023-07";` |
+| [Storefront API](https://shopify.dev/docs/api/storefront)       | ❌        |                                                                                                        |
+| [Marketplaces API](https://shopify.dev/docs/api/marketplaces)   | ❌        |                                                                                                        |
 
 ## Installation
 
